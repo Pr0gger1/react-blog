@@ -1,0 +1,25 @@
+.username {
+    border-radius: 5px;
+}
+.user:hover > .logout {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-left: 1em;
+    padding: 5px;
+
+    border-radius: 5px;
+}
+
+.user a:hover {
+    border: 1px solid gray;
+    padding: 2px;
+    border-radius: 5px;
+}
+.logout {
+    background-color: #bc2d38;
+    display: none;
+}
+.logout:hover {
+    background-color: #921821;
+}

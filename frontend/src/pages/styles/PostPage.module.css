@@ -1,0 +1,41 @@
+.post_page__title {
+    font-size: 4.5em;
+    word-break: break-word;
+}
+.post_page__info {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1.5em;
+}
+.post_page__info > div:not(.post__manage) {
+    background-color: var(--component-color);
+    padding: 10px;
+    border-radius: 5px;
+}
+.post_page__author {
+
+}
+.post_page__author a {
+    text-decoration: none;
+}
+.post_page__likes i {
+    color: red;
+}
+.post_page__content {
+
+}
+.post_page__created_at i {
+    margin-right: 10px;
+}
+.post__manage {
+}
+.post__manage button {
+    margin-right: 1em;
+}
+.post__manage .post_btn__edit {
+    box-shadow: none;
+}
+.post__manage .post_btn__delete {
+    box-shadow: none;
+}

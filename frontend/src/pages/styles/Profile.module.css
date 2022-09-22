@@ -1,0 +1,27 @@
+.user__avatar img {
+    border-radius: 20px;
+}
+.user__panel {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5%;
+}
+.user__panel ~ section {
+    margin-top: 5vh;
+}
+.user__panel .user__name {
+    font-size: 4em;
+    font-weight: 700;
+}
+.user__panel .user__email {
+    flex-direction: column;
+}
+.user__info {
+
+}
+.profile__wrapper {
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    grid-gap: 1em;
+}

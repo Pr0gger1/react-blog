@@ -1,0 +1,42 @@
+.post {
+    padding: 20px;
+    background-color: #1e1e1e;
+    border-radius: var(--component-border-radius);
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+
+    word-break: break-word;
+
+    box-shadow: 0 6px 10px 5px rgb(32, 32, 32);
+    transition: .1s ease-in;
+}
+.post:hover {
+    box-shadow: 0 10px 10px 5px rgb(32, 32, 32);
+    scale: 101%;
+    transition: .1s ease-in;
+}
+.post__title {
+    font-size: 2.8em;
+    max-width: 45vw;
+    margin-bottom: 0.2em;
+}
+.post__info {
+    display: flex;
+    width: 100%;
+    margin-top: 1em;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+}
+.post__description {
+    max-width: 50vw;
+    font-size: 1.5em;
+}
+/*:where(.post__likes, .post__created_at) i {*/
+/*    margin-right: 5px;*/
+/*}*/
+.post__likes i{
+    color: red;
+}
