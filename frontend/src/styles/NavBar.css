@@ -1,0 +1,33 @@
+.header__navbar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 1.5em;
+}
+.navbar__element {
+    cursor: pointer;
+    padding: 8px;
+    border-radius: 10px;
+    background-color: var(--component-color);
+    transition: .3s ease-in;
+}
+
+.navbar__element a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.navbar__element:hover {
+    background-color: #563da3;
+    transition: .3s ease-in;
+}
+.navbar__element{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+.icon {
+    margin-right: 0.6em;
+}

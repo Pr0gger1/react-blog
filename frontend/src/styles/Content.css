@@ -1,0 +1,22 @@
+.main__content {
+    /*display: flex;*/
+    /*flex-direction: row;*/
+    /*display: grid;*/
+    /*grid-template-columns: repeat(auto-fill, minmax(600px, 2fr));*/
+    /*grid-gap: 2%;*/
+
+    padding: 0 30px 50px 30px;
+    margin: 7rem auto 0 auto;
+
+    background-color: #242629;
+    min-height: calc(100vh - 80px);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #262a33;
+    min-height: 60vh;
+    border-radius: 12px;
+}

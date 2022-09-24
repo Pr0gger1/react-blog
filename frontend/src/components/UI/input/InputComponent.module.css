@@ -1,0 +1,22 @@
+.input__common {
+    padding: 15px 10px;
+
+    border-radius: var(--component-border-radius);
+    border: var(--component-border);
+
+    background-color: var(--component-color);
+
+    transition: .5s ease-in-out;
+    color: var(--component-font-color);
+    font-size: 1.1em;
+    outline: none;
+
+    box-shadow: 0 4px 10px 5px rgb(32, 32, 32);
+}
+.input__common::placeholder {
+    /*color: #535353;*/
+}
+.input__common:focus {
+    border: 1px solid var(--component-font-color);
+    transition: .5s ease-in-out;
+}

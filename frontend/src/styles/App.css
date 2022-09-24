@@ -1,0 +1,35 @@
+:root {
+  --background: #242629;
+  --component-color: #242629;
+  --component-border: 1px solid #1e1e1e;
+  --component-border-radius: 10px;
+  --component-font-color: #b3b3b3;
+  --button-color: #7f5af0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Mulish', sans-serif;
+  color: var(--component-font-color);
+}
+body {
+  background-color: #242629;
+  word-break: break-word;
+}
+body::-webkit-scrollbar {
+    background-color: #45494f;
+}
+body::-webkit-scrollbar-thumb {
+  background-color: #262a33;
+  border-radius: 2px;
+}
+
+.content {
+  padding: 1.8em 1.5em;
+}
+
+i[class^="fa"] {
+  margin-right: 5px;
+}

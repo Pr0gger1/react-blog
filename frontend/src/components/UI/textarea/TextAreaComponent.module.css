@@ -1,0 +1,16 @@
+.textarea__common {
+    background-color: #262a33;
+
+    resize: none;
+    outline: none;
+    border: none;
+    border-radius: var(--component-border-radius);
+
+    color: var(--component-font-color);
+    font-size: 1.5em;
+    padding: 15px;
+    width: 100%;
+    /*display: block;*/
+
+    overflow: hidden;
+}

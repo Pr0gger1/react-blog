@@ -1,0 +1,64 @@
+.form__login {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.auth__fields {
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+}
+
+.auth__fields input[type="submit"] {
+    margin-top: 1.5rem;
+    cursor: pointer;
+    background-color: #86671b;
+}
+.auth__fields input[type="submit"]:hover {
+    background-color: #5F460FFF;
+}
+.auth__type input[type="radio"]:checked + label{
+    color: #fff;
+    font-weight: 400;
+}
+.auth__type input[type="radio"]:checked ~ label:after {
+    background-color: #fff;
+    display: block;
+    width: 0;
+    height: 1px;
+    content: "";
+    transition: width .3s ease-in-out;
+}
+.auth__type input[type="radio"]:checked ~ label:hover:after,
+.auth__type input[type="radio"]:checked ~ label:focus:after {
+    width: 100%;
+}
+.auth__fields input[type="email"],
+input[type="text"],
+input[type="password"]{
+    margin-bottom: 0.8rem;
+    box-shadow: rgba(0, 0, 0, 0.15) 0px 3px 3px 0px;
+}
+
+input[type="radio"] {
+    display: none;
+}
+.auth_type__label {
+    color: #d0d0d0;
+    font-weight: 100;
+    font-size: 1.5em;
+    cursor: pointer;
+}
+.auth_type__label:hover {
+    color: #fff;
+}
+.auth__type {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 1.2em;
+}
+.error__container {
+    color: #c83434;
+    margin-bottom: 5px;
+}

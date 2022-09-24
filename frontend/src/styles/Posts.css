@@ -1,0 +1,12 @@
+.content__posts {
+    color: var(--component-font-color);
+
+    text-align: center;
+
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+.content__posts a {
+    text-decoration: none;
+}

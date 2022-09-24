@@ -1,0 +1,11 @@
+.main__content {
+    grid-template-columns: auto;
+}
+.content {
+    background-color: #242629;
+}
+.error__title {
+    font-size: 4em;
+    color: #fff;
+    font-weight: 900;
+}

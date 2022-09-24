@@ -1,0 +1,15 @@
+.text_container__common {
+    padding: 10px;
+    min-height: 50px;
+    word-break: break-word;
+
+}
+.text_container__common:hover {
+    cursor: text;
+}
+.text_container__common:empty:not(:focus):before {
+    content: attr(data-text);
+}
+[contenteditable=true] {
+    outline: none;
+}

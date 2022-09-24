@@ -1,0 +1,25 @@
+.content__filter {
+    display: flex;
+    gap: 1.5em;
+    justify-content: center;
+    flex-direction: row;
+    font-size: 1.1em;
+}
+@media screen and (max-width: 700px) {
+    .content__filter {
+        flex-direction: column-reverse;
+
+    }
+}
+.write_post__button {
+    padding: 0;
+}
+.write_post__button i {
+    margin-right: 10px;
+}
+.filter__component {
+    flex-grow: 1;
+}
+#big {
+    flex-grow: 3;
+}

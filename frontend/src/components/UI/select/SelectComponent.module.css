@@ -1,0 +1,15 @@
+.select__common {
+    background-color: var(--component-color);
+
+    border: var(--component-border);
+    border-radius: var(--component-border-radius);
+
+    color: var(--component-font-color);
+    outline: none;
+    padding: 10px;
+
+    text-transform: uppercase;
+    cursor: pointer;
+
+    box-shadow: 0 4px 10px 5px rgb(32, 32, 32);
+}

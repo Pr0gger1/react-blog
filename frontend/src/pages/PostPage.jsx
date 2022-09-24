@@ -6,10 +6,12 @@ import {useFetching} from "../hooks/useFetching";
 import classes from "./styles/PostPage.module.css";
 import {AuthContext} from "../context/auth.context";
 import Button from "../components/UI/button/Button";
+import ToastNotify from "../components/UI/ToastNotify/ToastNotify";
 
 const PostPage = () => {
     const {request} = useHttp();
     const postId = useParams();
+    // const [toastActive, setToastActive] = useState(false);
 
     const auth = useContext(AuthContext);
     const Navigate = useNavigate();
@@ -30,6 +32,8 @@ const PostPage = () => {
             const data = await request(`/api/post/get/${postId.id}`, "DELETE");
             alert(data.message)
             Navigate("/");
+            // setToastActive(true);
+
         }
     }
     const editPost = () => {
@@ -86,7 +90,6 @@ const PostPage = () => {
 
                         </div>
             }
-
         </div>
     );
 };

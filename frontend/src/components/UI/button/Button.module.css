@@ -1,0 +1,31 @@
+.button__common {
+    cursor: pointer;
+    padding: 10px;
+
+    border: var(--component-border);
+    border-radius: var(--component-border-radius);
+
+    color: var(--component-font-color);
+    font-size: 1em;
+    background-color: var(--component-color);
+
+    transition: .5s ease;
+
+    box-shadow: 0 4px 10px 5px rgb(32, 32, 32);
+}
+
+.button__common:hover {
+    color: #fff;
+    transition: .5s ease;
+}
+.button__common:disabled {
+    border: 1px solid black;
+    color: #5f5f5f;
+    box-shadow: 0 3px 3px #121111 inset ;
+}
+.button__common:disabled i {
+    color: #5f5f5f;
+}
+.button__common:disabled:hover {
+    color: #5f5f5f;
+}
